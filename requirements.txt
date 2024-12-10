@@ -1,0 +1,35 @@
+# Core scientific libraries
+numpy==1.24.4         # For numerical computations
+pandas==2.1.1         # For data manipulation and analysis
+matplotlib==3.8.1     # For plotting and visualization
+scipy==1.11.3         # For scientific computing
+
+# Machine Learning and Deep Learning
+scikit-learn==1.3.1   # For machine learning
+tensorflow==2.14.0    # For deep learning
+torch==2.0.1          # For PyTorch deep learning
+xgboost==1.7.6        # For gradient boosting algorithms
+
+# Web Development
+flask==3.0.0          # For lightweight web frameworks
+django==4.2.5         # For full-stack web development
+
+# Database
+sqlalchemy==2.1.2     # For ORM and database management
+psycopg2==2.9.7       # For PostgreSQL database
+pymongo==4.5.1        # For MongoDB database
+
+# Data Scraping and APIs
+requests==2.31.0      # For HTTP requests
+beautifulsoup4==4.13.0 # For web scraping
+selenium==4.12.0      # For browser automation
+
+# Others
+pytest==7.5.2         # For testing
+jupyter==1.0.0        # For interactive notebooks
+notebook==7.0.3       # Jupyter Notebook IDE
+black==23.9.1         # For code formatting
+pylint==3.0.0         # For linting
+
+# Optional - GPU support
+cupy==13.3.0          # For GPU-accelerated numpy-like operations (if using CUDA)
